@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+ 
+
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('../fonts/Gotham-Book/Gotham-Book.eot');
+    src: url('../fonts/Gotham-Book/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Book/Gotham-Book.woff') format('woff'),
+		 url('../fonts/Gotham-Book/Gotham-Book.woff2') format('woff2'),
+         url('../fonts/Gotham-Book/Gotham-Book.ttf') format('truetype'),
+         url('../fonts/Gotham-Book/Gotham-Book.svg#gotham') format('svg');
+         }
+         
+
+@font-face {
+font-family: 'Open-Sans-Light';
+src: url('../fonts/Open-Sans/Light/OpenSans-Light.eot');
+src: url('../fonts/Open-Sans/Light/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Open-Sans/Light/OpenSans-Light.woff') format('woff'),
+        url('../fonts/Open-Sans/Light/OpenSans-Light.woff2') format('woff2'),
+        url('../fonts/Open-Sans/Light/OpenSans-Light.ttf') format('truetype'),
+        url('../fonts/Open-Sans/Light/OpenSans-Light.svg#Gotham-Bold') format('svg');
+        }
+
+
+
+
+
+html, body {
+	font-family:'Open-Sans-Light';
+}
+
+.logo-wrapper.text-center {
+    padding-top: 40px;
+}
+
+.logo-wrapper.text-center > img  {
+    margin: auto;
+}
+
+.main-wrapper {
+    background: rgb(191, 191, 191, 0.3);
+    padding: 30px;
+    margin: auto;
+    max-width: 450px;
+    border-radius: 20px;
+    -o-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    box-shadow: 10px 10px 15px rgb(128, 128, 128, 0.3);
+}
+
+
+
+.landing-h3 {
+    margin: 0;
+}
+
+[href="mailto:tony@catrogen.com"] {
+    color: inherit;
+}
+
+@media screen and (max-width: 768px)
+{
+
+    .main-wrapper {
+        margin: 15px;
+    }
+ 
+}

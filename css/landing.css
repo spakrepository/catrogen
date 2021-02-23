@@ -1,0 +1,126 @@
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('../fonts/Gotham-Book/Gotham-Book.eot');
+  src: url('../fonts/Gotham-Book/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Gotham-Book/Gotham-Book.woff') format('woff'),
+   url('../fonts/Gotham-Book/Gotham-Book.woff2') format('woff2'),
+       url('../fonts/Gotham-Book/Gotham-Book.ttf') format('truetype'),
+       url('../fonts/Gotham-Book/Gotham-Book.svg#gotham') format('svg');
+       }
+       
+
+@font-face {
+font-family: 'Gotham-Bold';
+src: url('../fonts/Gotham-Bold/Gotham-Bold.eot');
+src: url('../fonts/Gotham-Bold/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gotham-Bold/Gotham-Bold.woff') format('woff'),
+      url('../fonts/Gotham-Bold/Gotham-Bold.woff2') format('woff2'),
+      url('../fonts/Gotham-Bold/Gotham-Bold.ttf') format('truetype'),
+      url('../fonts/Gotham-Bold/Gotham-Bold.svg#Gotham-Bold') format('svg');
+      }
+
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url('../fonts/Gotham-Light/Gotham-Light.eot');
+  src: url('../fonts/Gotham-Light/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/Gotham-Light/Gotham-Light.woff') format('woff'),
+          url('../fonts/Gotham-Light/Gotham-Light.woff2') format('woff2'),
+          url('../fonts/Gotham-Light/Gotham-Light.ttf') format('truetype'),
+          url('../fonts/Gotham-Light/Gotham-Light.svg#Gotham-Bold') format('svg');
+          }
+
+@font-face {
+  font-family: 'Open-Sans-Light-Italic';
+  src: url('../fonts/Open-Sans-Light-Italic/Open-Sans-Light-Italic.eot');
+  src: url('../fonts/Open-Sans-Light-Italic/Open-Sans-Light-Italic.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/Open-Sans-Light-Italic/Open-Sans-Light-Italic.woff') format('woff'),
+          url('../fonts/Open-Sans-Light-Italic/Open-Sans-Light-Italic.woff2') format('woff2'),
+          url('../fonts/Open-Sans-Light-Italic/Open-Sans-Light-Italic.ttf') format('truetype'),
+          url('../fonts/Open-Sans-Light-Italic/Open-Sans-Light-Italic.svg#Gotham-Bold') format('svg');
+          }
+          
+          /* @font-face {
+            font-family: 'HelveticaNeue-Thin';
+            src: url('../fonts/HelveticaNeueThin/HelveticaNeue-Thin.svg#HelveticaNeue-Thin') format('svg'),
+                 url('../fonts/HelveticaNeueThin/HelveticaNeue-Thin.ttf') format('truetype'),
+                 url('../fonts/HelveticaNeueThin/HelveticaNeue-Thin.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+          } */
+
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+    position: relative;
+    background:url('../img/background.png');
+    /* background-position: 100% 100%;  */
+    /* background-color: #17182f; */
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    /*height: 100%; */
+  }
+
+  .center-img {
+      position: absolute;
+      width:450px;
+      height: auto;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+  }
+
+  .enter {      
+      padding: 15px;
+      margin-top: 15px;
+  }
+
+  .enter > a {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Gotham-Light';
+    background: #cfb172;
+    border:2px solid #cfb172;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 5px 15px;
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+  }
+
+  .enter > a:hover {
+    text-decoration: none;
+    background: transparent;
+    color: #cfb172;
+  }
+
+  
+
+
+
+
+
